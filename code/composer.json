@@ -1,0 +1,19 @@
+{
+    "name": "mac/code",
+    "description": "tdds",
+    "authors": [
+        {
+            "name": "marcelob133",
+            "email": "marceloborellihegedus@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "tests\\":"tests"
+        }
+    }
+}

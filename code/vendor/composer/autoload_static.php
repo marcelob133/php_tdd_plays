@@ -912,6 +912,7 @@ class ComposerStaticInit279d66bd584d71cbb9c3f115c80473e4
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'tests\\TesteTest' => __DIR__ . '/../..' . '/tests/TesteTest.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
